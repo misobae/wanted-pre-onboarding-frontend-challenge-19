@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "../store/store";
-import { deleteTodo } from "../store/todoSlice";
+import { RootState } from "../../store/store";
+import { deleteTodo } from "../../store/todoSlice";
 
 function List(){
   const todos = useSelector((state: RootState) => state.todos.todos);
